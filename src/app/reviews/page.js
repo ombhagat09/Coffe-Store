@@ -28,7 +28,7 @@ const reviews = [
 
 export default function Reviews() {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-amber-50 to-amber-100 py-20 px-6">
+    <section className="min-h-screen bg-linear-to-b from-amber-50 to-amber-100 py-20 px-6">
       <motion.h2
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}

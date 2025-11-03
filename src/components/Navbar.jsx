@@ -17,7 +17,7 @@ export default function Navbar() {
           <Link
             key={link.path}
             href={link.path}
-            className="relative hover:text-amber-700 transition duration-300 after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 after:-bottom-1 after:bg-amber-700 hover:after:w-full after:transition-all after:duration-300"
+            className="relative hover:text-amber-700 transition duration-300 after:content-[''] after:absolute after:w-0 after:h-0.5 after:left-0 after:-bottom-1 after:bg-amber-700 hover:after:w-full after:transition-all after:duration-300"
           >
             {link.name}
           </Link>
